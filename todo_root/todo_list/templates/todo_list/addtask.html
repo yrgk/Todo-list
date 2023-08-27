@@ -1,0 +1,23 @@
+{% extends 'todo_list/base.html' %}
+
+<title>Add Task</title>
+
+{% block content %}
+
+    <div class="content">
+        <form action="{% url 'addtask' %}" method="post">
+            {% csrf_token %}
+
+            <div class="form-error">{{ form.non_field_errors }}</div>>
+
+            <p>{{ form.name }}</p>
+
+            <p>{{ form.content }}</p>
+
+            <input type="submit" id="submit" value="Send">
+
+        </form>
+    </div>
+
+
+{% endblock %}

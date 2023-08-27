@@ -1,0 +1,16 @@
+{% extends 'todo_list/base.html' %}
+
+{% block content %}
+<div class="content">
+    <form action="{{ get_absolute_url }}" method="post">
+        {% csrf_token %}
+
+        <p>{{ form.name }}</p>
+
+        <p>{{ form.content }}</p>
+
+        <input type="submit" id="submit" value="Send">
+
+    </form>
+</div>
+{% endblock %}

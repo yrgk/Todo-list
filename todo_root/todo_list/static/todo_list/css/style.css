@@ -1,0 +1,185 @@
+html, body {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2em;
+}
+
+.project-name {
+    margin-right: 30px;
+}
+
+#header {
+    background-color: rgb(26, 26, 26);
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.card {
+    background-color:rgb(26, 26, 26);
+    margin: 40px;
+    padding: 25px;
+    padding-bottom: 45px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+h4 {
+    word-break: break-all;
+    color: aliceblue;
+}
+
+h2 {
+    margin: 10px;
+    word-break: break-all;
+    color: aliceblue;
+}
+
+.you-did {
+    margin: 100px;
+    font-size: 70px;
+    color: rgb(26, 26, 26)
+}
+
+.link {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.1s;
+    padding-right: 40px;
+    font-size: 17px;
+}
+.link:hover {
+    padding-bottom: 10px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    width: 700px;
+    padding: 30px;
+    background-color:rgb(26, 26, 26);
+    flex-direction: column;
+    border-radius: 35px;
+}
+
+#submit {
+    background-color: aliceblue;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    transition-duration: 0.1s;
+}
+#submit:hover {
+    border-radius: 12px;
+}
+#submit:active {
+    background-color:rgb(204, 211, 217);
+}
+
+.link-to-post {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contentbar {
+    background-color: aqua;
+    width: 50%;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.did {
+    margin: 50px;
+    font-size: 60px;
+}
+
+.namebar {
+    display: flex;
+    text-align: center;
+}
+
+.edit {
+    margin-left: 10px;
+}
+
+#nametask {
+    background-color: aliceblue;
+    width: 98%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+#area {
+    background-color: aliceblue;
+    width: 98%;
+    height: 600px;
+    padding-left: 10px;
+    padding-top: 3%;
+    margin-bottom: 20px;
+    resize: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-links {
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    transition: 0.1s;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: aliceblue;
+    padding: 8px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+}
+.card-links:hover {
+    border-radius: 20px;
+}
+.card-links:active {
+    background-color:rgb(204, 211, 217);
+}
+
+.task-name {
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.time {
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+.date-c {margin-right: 10px;}
